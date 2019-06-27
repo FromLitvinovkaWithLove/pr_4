@@ -1,3 +1,7 @@
+.mark-image{
+    border: solid 2px grey;
+    box-sizing: border-box;
+}
 section.style{
     background-image: url(../img/background-elipse.jpg);
     width: 100%;
@@ -221,36 +225,36 @@ section.cuidelines div.section-items figcaption img{
     height: 1rem;;
 }
 /*конец третьей секции*/
-body>section:nth-last-child(3){
+body>section:nth-last-child(7){
     background-image: url(../img/backgr21.jpg);
     background-size: cover;
     padding: 18em 0 20em ;
     color: #fff;
 }
-body>section:nth-last-child(3)> div{
+body>section:nth-last-child(7)> div{
     width: 45em;
     margin-left: 10%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-body>section:nth-last-child(3)  img{
+body>section:nth-last-child(7)  img{
     margin-right: 2em;
     height: 10em;
 }
-body>section:nth-last-child(3) section {
+body>section:nth-last-child(7) section {
     
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-body>section:nth-last-child(3) section h2{
+body>section:nth-last-child(7) section h2{
     margin-bottom: 1rem;
     font-size: 3.3em;
     line-height: 1;
     font-weight: bold;
 }
-body>section:nth-last-child(2){
+body>section:nth-last-child(6){
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -258,21 +262,21 @@ body>section:nth-last-child(2){
     align-items: center;
 
 }
-body>section:nth-last-child(2)>a{
+body>section:nth-last-child(6)>a{
     margin: 12rem 0 12rem 2rem;
     padding: 1rem;
     background:  #919191;
     border-radius: 5%;
     display: flex;
 }
-body>section:nth-last-child(2)>a img{
+body>section:nth-last-child(6)>a img{
     height: 1rem;
 }
-body>section:nth-last-child(2)> img{
+body>section:nth-last-child(6)> img{
     position: absolute;
     margin-top: -12rem;
     right: 10%;
-    width: 60%;
+    width: 50%;
 }
 footer{
     display: flex;

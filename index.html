@@ -11,7 +11,9 @@
     <title></title>
 </head>
 <body>
+    <!-- первый экран со слайдером -->
     <section class="captioned-gallery">
+        <!-- слайдер -->
         <figure class="slider">
             <figure>
                 <img src="img/backgr1.jpg" alt="slider">
@@ -23,7 +25,7 @@
         <section class="center-position">
             <header>
                 <div class="logo">
-                    <a href="#"> <img src="img/logo.png" alt="logo"></a>
+                    <a href="#"></a>
                 </div>
                 <nav>
                     <ul>
@@ -63,8 +65,10 @@
             </section>
         </section>
     </section>
-    <section class="style">
-        <div>
+    <!-- второй блок -->
+    <section class="style" data-arr='arr'>
+        <!-- первая стрелка -->
+        <div id="dropdown">
             <img src="img/dropdown_gray.png" alt="">
         </div>
         <h2>
@@ -75,8 +79,10 @@
         </p>
         <img src="img/iphone.png" alt="iphone">
     </section>
-    <section class="features">
-        <div>
+    <!-- третий блок -->
+    <section class="features" data-arr='arr'>
+        <!-- вторая стрелка -->
+        <div id="dropdown">
             <img src="img/dropdown_white.png" alt="">
         </div>
         <section>
@@ -113,11 +119,13 @@
                 </li>
             </ul>
         </section>
-        <div>
+        <!-- третья стрелка -->
+        <div id="dropdown">
             <img src="img/dropdown_ligthgray.png" alt="">
         </div>
     </section>
-    <section class="cuidelines">
+    <!-- четвёртый блок -->
+    <section class="cuidelines" data-arr='arr'>
         <section>
             <h2>OUR DESIGN COIDELINES</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab atque in, suscipit blanditiis nam, voluptate dolor quaerat recusandae magnam totam aperiam sapiente nulla obcaecati?</p>
@@ -153,7 +161,8 @@
             </figure>
         </div>
     </section>
-    <section>
+    <!-- пятый блок (дублирование хедера) -->
+    <section data-arr='arr'>
         <div>
             <img src="img/logo_big.png" alt="logo">
             <section>
@@ -164,13 +173,14 @@
             </section>  
         </div>
     </section>
-    <section>
+    <!-- блок с кнопкой наверх и пк -->
+    <section data-arr='arr'>
         <a href="#">
             <img src="img/back_to_top.png" alt="top">
         </a>
         <img src="img/pc.png" alt="">
     </section>
-    <footer>
+    <footer data-arr='arr'>
         <ul>
             <li>
                 <ul class="sharing">
@@ -221,5 +231,9 @@
             </li>
         </ul>
     </footer>
+    <script src="js/script7.js"></script>
+    <script src="js/script8.js"></script>
+    <script src="js/script9.js"></script>
+    <script src="js/script10.js"></script>
 </body>
 </html>
